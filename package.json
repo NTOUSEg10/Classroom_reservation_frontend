@@ -1,0 +1,39 @@
+{
+  "name": "ntou-classroom-platform",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build && node scripts/check-csp.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "test": "vitest run",
+    "test:csp": "node scripts/check-csp.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "svelte-kit sync || echo ''"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.117.3",
+    "gsap": "3.15.0",
+    "svelte": "5.57.2"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "3.0.10",
+    "@sveltejs/kit": "2.70.3",
+    "@sveltejs/vite-plugin-svelte": "6.2.4",
+    "@tailwindcss/vite": "4.3.3",
+    "@types/node": "24.10.0",
+    "prettier": "3.9.10",
+    "prettier-plugin-svelte": "4.1.1",
+    "svelte-check": "4.7.6",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3",
+    "vite": "7.3.7",
+    "vitest": "4.1.11"
+  },
+  "overrides": {
+    "cookie": "0.7.2"
+  }
+}

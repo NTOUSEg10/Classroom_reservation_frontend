@@ -1,0 +1,38 @@
+{
+  "scope": "direction",
+  "key": "5de9e9fc",
+  "reroll": 0,
+  "at": 1791705186449,
+  "worlds": [
+    {
+      "id": "pop-culture-shelf-character-goods-catalog",
+      "board": "https://impeccable.style/worlds/cards/pop-culture-shelf-character-goods-catalog.webp",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-character-goods-catalog-hero.webp"
+    },
+    {
+      "id": "rw-timetable-slide-rack",
+      "board": "https://impeccable.style/worlds/cards/rw-timetable-slide-rack.webp",
+      "hero": "https://impeccable.style/worlds/cards/rw-timetable-slide-rack-hero.webp"
+    },
+    {
+      "id": "editorial-sequence-montage-botanical-folio-season",
+      "board": "https://impeccable.style/worlds/cards/editorial-sequence-montage-botanical-folio-season.webp",
+      "hero": "https://impeccable.style/worlds/cards/editorial-sequence-montage-botanical-folio-season-hero.webp"
+    },
+    {
+      "id": "wayfinding-cartography-signage-midnight-transit-diagram",
+      "board": "https://impeccable.style/worlds/cards/wayfinding-cartography-signage-midnight-transit-diagram.webp",
+      "hero": "https://impeccable.style/worlds/cards/wayfinding-cartography-signage-midnight-transit-diagram-hero.webp"
+    },
+    {
+      "id": "vernacular-ephemera-cassette-j-card",
+      "board": "https://impeccable.style/worlds/cards/vernacular-ephemera-cassette-j-card.webp",
+      "hero": "https://impeccable.style/worlds/cards/vernacular-ephemera-cassette-j-card-hero.webp"
+    },
+    {
+      "id": "ikeda-datamatics",
+      "board": "https://impeccable.style/worlds/cards/ikeda-datamatics.webp",
+      "hero": "https://impeccable.style/worlds/cards/ikeda-datamatics-hero.webp"
+    }
+  ]
+}

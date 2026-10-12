@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-12T02:54:12Z",
+  "title": "Design System: 海大教室借用平台",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "深色正文",
+        "tonalRamp": [
+          "oklch(15.00% 0.03990 222.14)",
+          "oklch(26.43% 0.03990 222.14)",
+          "oklch(37.86% 0.03990 222.14)",
+          "oklch(49.29% 0.03990 222.14)",
+          "oklch(60.71% 0.03990 222.14)",
+          "oklch(72.14% 0.03990 222.14)",
+          "oklch(83.57% 0.03990 222.14)",
+          "oklch(95.00% 0.03990 222.14)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "灰綠次文",
+        "tonalRamp": [
+          "oklch(15.00% 0.02519 222.15)",
+          "oklch(26.43% 0.02519 222.15)",
+          "oklch(37.86% 0.02519 222.15)",
+          "oklch(49.29% 0.02519 222.15)",
+          "oklch(60.71% 0.02519 222.15)",
+          "oklch(72.14% 0.02519 222.15)",
+          "oklch(83.57% 0.02519 222.15)",
+          "oklch(95.00% 0.02519 222.15)"
+        ]
+      },
+      "navy": {
+        "role": "secondary",
+        "displayName": "深海藍",
+        "tonalRamp": [
+          "oklch(15.00% 0.05526 232.66)",
+          "oklch(26.43% 0.05526 232.66)",
+          "oklch(37.86% 0.05526 232.66)",
+          "oklch(49.29% 0.05526 232.66)",
+          "oklch(60.71% 0.05526 232.66)",
+          "oklch(72.14% 0.05526 232.66)",
+          "oklch(83.57% 0.05526 232.66)",
+          "oklch(95.00% 0.05526 232.66)"
+        ]
+      },
+      "navy-soft": {
+        "role": "secondary",
+        "displayName": "海藍淡層",
+        "tonalRamp": [
+          "oklch(15.00% 0.05852 228.61)",
+          "oklch(26.43% 0.05852 228.61)",
+          "oklch(37.86% 0.05852 228.61)",
+          "oklch(49.29% 0.05852 228.61)",
+          "oklch(60.71% 0.05852 228.61)",
+          "oklch(72.14% 0.05852 228.61)",
+          "oklch(83.57% 0.05852 228.61)",
+          "oklch(95.00% 0.05852 228.61)"
+        ]
+      },
+      "teal": {
+        "role": "primary",
+        "displayName": "青綠操作色",
+        "tonalRamp": [
+          "oklch(15.00% 0.09046 187.83)",
+          "oklch(26.43% 0.09046 187.83)",
+          "oklch(37.86% 0.09046 187.83)",
+          "oklch(49.29% 0.09046 187.83)",
+          "oklch(60.71% 0.09046 187.83)",
+          "oklch(72.14% 0.09046 187.83)",
+          "oklch(83.57% 0.09046 187.83)",
+          "oklch(95.00% 0.09046 187.83)"
+        ]
+      },
+      "teal-dark": {
+        "role": "primary",
+        "displayName": "深青綠",
+        "tonalRamp": [
+          "oklch(15.00% 0.07613 188.67)",
+          "oklch(26.43% 0.07613 188.67)",
+          "oklch(37.86% 0.07613 188.67)",
+          "oklch(49.29% 0.07613 188.67)",
+          "oklch(60.71% 0.07613 188.67)",
+          "oklch(72.14% 0.07613 188.67)",
+          "oklch(83.57% 0.07613 188.67)",
+          "oklch(95.00% 0.07613 188.67)"
+        ]
+      },
+      "teal-pale": {
+        "role": "primary",
+        "displayName": "青綠淡底",
+        "tonalRamp": [
+          "oklch(15.00% 0.01473 175.72)",
+          "oklch(26.43% 0.01473 175.72)",
+          "oklch(37.86% 0.01473 175.72)",
+          "oklch(49.29% 0.01473 175.72)",
+          "oklch(60.71% 0.01473 175.72)",
+          "oklch(72.14% 0.01473 175.72)",
+          "oklch(83.57% 0.01473 175.72)",
+          "oklch(95.00% 0.01473 175.72)"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "灰綠底",
+        "tonalRamp": [
+          "oklch(15.00% 0.00249 165.08)",
+          "oklch(26.43% 0.00249 165.08)",
+          "oklch(37.86% 0.00249 165.08)",
+          "oklch(49.29% 0.00249 165.08)",
+          "oklch(60.71% 0.00249 165.08)",
+          "oklch(72.14% 0.00249 165.08)",
+          "oklch(83.57% 0.00249 165.08)",
+          "oklch(95.00% 0.00249 165.08)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "白色工作面",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "淡灰綠邊線",
+        "tonalRamp": [
+          "oklch(15.00% 0.01044 174.25)",
+          "oklch(26.43% 0.01044 174.25)",
+          "oklch(37.86% 0.01044 174.25)",
+          "oklch(49.29% 0.01044 174.25)",
+          "oklch(60.71% 0.01044 174.25)",
+          "oklch(72.14% 0.01044 174.25)",
+          "oklch(83.57% 0.01044 174.25)",
+          "oklch(95.00% 0.01044 174.25)"
+        ]
+      },
+      "danger": {
+        "role": "tertiary",
+        "displayName": "警示紅",
+        "tonalRamp": [
+          "oklch(15.00% 0.15212 24.61)",
+          "oklch(26.43% 0.15212 24.61)",
+          "oklch(37.86% 0.15212 24.61)",
+          "oklch(49.29% 0.15212 24.61)",
+          "oklch(60.71% 0.15212 24.61)",
+          "oklch(72.14% 0.15212 24.61)",
+          "oklch(83.57% 0.15212 24.61)",
+          "oklch(95.00% 0.15212 24.61)"
+        ]
+      },
+      "danger-pale": {
+        "role": "tertiary",
+        "displayName": "警示淡底",
+        "tonalRamp": [
+          "oklch(15.00% 0.01650 26.65)",
+          "oklch(26.43% 0.01650 26.65)",
+          "oklch(37.86% 0.01650 26.65)",
+          "oklch(49.29% 0.01650 26.65)",
+          "oklch(60.71% 0.01650 26.65)",
+          "oklch(72.14% 0.01650 26.65)",
+          "oklch(83.57% 0.01650 26.65)",
+          "oklch(95.00% 0.01650 26.65)"
+        ]
+      },
+      "amber": {
+        "role": "tertiary",
+        "displayName": "琥珀",
+        "tonalRamp": [
+          "oklch(15.00% 0.08708 77.68)",
+          "oklch(26.43% 0.08708 77.68)",
+          "oklch(37.86% 0.08708 77.68)",
+          "oklch(49.29% 0.08708 77.68)",
+          "oklch(60.71% 0.08708 77.68)",
+          "oklch(72.14% 0.08708 77.68)",
+          "oklch(83.57% 0.08708 77.68)",
+          "oklch(95.00% 0.08708 77.68)"
+        ]
+      },
+      "amber-pale": {
+        "role": "tertiary",
+        "displayName": "琥珀淡底",
+        "tonalRamp": [
+          "oklch(15.00% 0.02804 86.64)",
+          "oklch(26.43% 0.02804 86.64)",
+          "oklch(37.86% 0.02804 86.64)",
+          "oklch(49.29% 0.02804 86.64)",
+          "oklch(60.71% 0.02804 86.64)",
+          "oklch(72.14% 0.02804 86.64)",
+          "oklch(83.57% 0.02804 86.64)",
+          "oklch(95.00% 0.02804 86.64)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "頁面標題",
+        "purpose": "查詢、詳情、帳戶和管理頁的任務標題。"
+      },
+      "title": {
+        "displayName": "區塊標題",
+        "purpose": "詳情與表單的二級標題。"
+      },
+      "title-small": {
+        "displayName": "小標題",
+        "purpose": "列表項目與局部資訊標題；緊湊變體由來源 CSS 控制。"
+      },
+      "body": {
+        "displayName": "正文",
+        "purpose": "根字級和一般閱讀節奏。"
+      },
+      "label": {
+        "displayName": "欄位標示",
+        "purpose": "可見表單標示，略重於欄位值。"
+      },
+      "action": {
+        "displayName": "操作文字",
+        "purpose": "一般按鈕文字。"
+      },
+      "action-compact": {
+        "displayName": "緊湊操作文字",
+        "purpose": "列表與頁碼操作文字。"
+      },
+      "field": {
+        "displayName": "欄位值",
+        "purpose": "input、select 與 textarea 值。"
+      },
+      "caption": {
+        "displayName": "補充資訊",
+        "purpose": "位置、輔助說明與紀錄次文。"
+      },
+      "status": {
+        "displayName": "狀態",
+        "purpose": "借用生命周期的短文字。"
+      },
+      "navigation": {
+        "displayName": "導覽",
+        "purpose": "桌機主導覽；手機尺寸依來源 breakpoint 調整。"
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "state-transition",
+        "value": "160ms ease-out",
+        "purpose": "按鈕背景／邊線、導覽與資訊列的既有 CSS 色彩轉換。"
+      },
+      {
+        "name": "page-heading",
+        "value": "x: 8px → 0; opacity: 0.88 → 1; duration: 0.24s; ease: expo.out",
+        "purpose": "路徑切換時的 h1；來源 src/lib/motion.ts 的 page 行為。"
+      },
+      {
+        "name": "results",
+        "value": "y: 4px → 0; opacity: 0.84 → 1; duration: 0.22s; stagger amount: 0.06s; max rows: 12; ease: expo.out",
+        "purpose": "查詢資訊列的進場與更新；週課表沒有 room-row 時作用於格線本身。整段最長 0.28s。"
+      },
+      {
+        "name": "status-change",
+        "value": "scale: 0.97 → 1; opacity: 0.8 → 1; duration: 0.16s; ease: expo.out",
+        "purpose": "借用狀態變更時提示；初次掛載不播放。"
+      },
+      {
+        "name": "location-label",
+        "value": "scale: 0.97 → 1; opacity: 0.8 → 1; duration: 0.24s; ease: expo.out",
+        "purpose": "地圖就緒的教室代碼標示；保留位置點座標錨定。"
+      },
+      {
+        "name": "reduced-motion",
+        "value": "(prefers-reduced-motion: no-preference); transition: none !important; animation: none !important; scroll-behavior: auto !important",
+        "purpose": "GSAP 僅在 no-preference 執行；reduce 不播放 tween，CSS 同時停用 transition／animation。"
+      },
+      {
+        "name": "motion-cleanup",
+        "value": "clearProps: transform,opacity; matchMedia.revert()",
+        "purpose": "Tween 完成清除樣式；更新／卸載 revert 舊範圍，快速切頁不殘留動畫。"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1250px"
+      },
+      {
+        "name": "top-navigation",
+        "value": "900px"
+      },
+      {
+        "name": "mobile",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "主要按鈕",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "查詢與送出等主要操作；色彩與狀態取自共用按鈕 CSS。",
+      "html": "<button class=\"ds-button-primary\" type=\"button\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 21l-5-5M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0\" /></svg>查詢教室</button>",
+      "css": ".ds-button-primary { display: inline-flex; justify-content: center; align-items: center; gap: 8px; padding: 10px 18px; border: 1px solid transparent; border-radius: var(--radius-control, 7px); background: var(--color-teal, #087c75); color: var(--color-paper, #ffffff); font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang TC', system-ui, sans-serif; font-size: .87rem; font-weight: 600; line-height: 1.65; min-height: 44px; white-space: nowrap; cursor: pointer; transition: background 160ms ease-out, border-color 160ms ease-out; }\n.ds-button-primary:hover { background: var(--color-teal-dark, #08635e); }\n.ds-button-primary:disabled { opacity: .5; cursor: not-allowed; }\n.ds-button-primary svg { flex-shrink: 0; }\n.ds-button-primary:focus-visible { outline: 3px solid var(--color-teal, #087c75); outline-offset: 4px; }\n@media (prefers-reduced-motion: reduce) { .ds-button-primary { transition: none !important; animation: none !important; } }"
+    },
+    {
+      "name": "次要按鈕",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "返回、重新整理與其他次要操作。",
+      "html": "<button class=\"ds-button-secondary\" type=\"button\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 7v5h-5M4 17v-5h5M6 6a8 8 0 0 1 13 1M18 18a8 8 0 0 1-13-1\" /></svg>重新整理</button>",
+      "css": ".ds-button-secondary { display: inline-flex; justify-content: center; align-items: center; gap: 8px; padding: 10px 18px; border: 1px solid var(--color-border, #dce5e2); border-radius: var(--radius-control, 7px); background: var(--color-paper, #ffffff); color: var(--color-ink, #183640); font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang TC', system-ui, sans-serif; font-size: .87rem; font-weight: 600; line-height: 1.65; min-height: 44px; white-space: nowrap; cursor: pointer; transition: background 160ms ease-out, border-color 160ms ease-out; }\n.ds-button-secondary:hover { background: var(--color-teal-pale, #e6f3ef); border-color: #b6d7cc; }\n.ds-button-secondary:disabled { opacity: .5; cursor: not-allowed; }\n.ds-button-secondary svg { flex-shrink: 0; }\n.ds-button-secondary:focus-visible { outline: 3px solid var(--color-teal, #087c75); outline-offset: 4px; }\n@media (prefers-reduced-motion: reduce) { .ds-button-secondary { transition: none !important; animation: none !important; } }"
+    },
+    {
+      "name": "危險按鈕",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "既有共用危險操作變體。",
+      "html": "<button class=\"ds-button-danger\" type=\"button\">取消借用</button>",
+      "css": ".ds-button-danger { display: inline-flex; justify-content: center; align-items: center; gap: 8px; padding: 10px 18px; border: 1px solid transparent; border-radius: var(--radius-control, 7px); background: var(--color-danger, #a73333); color: var(--color-paper, #ffffff); font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang TC', system-ui, sans-serif; font-size: .87rem; font-weight: 600; line-height: 1.65; min-height: 44px; white-space: nowrap; cursor: pointer; transition: background 160ms ease-out, border-color 160ms ease-out; }\n.ds-button-danger:hover { background: #862626; }\n.ds-button-danger:disabled { opacity: .5; cursor: not-allowed; }\n.ds-button-danger svg { flex-shrink: 0; }\n.ds-button-danger:focus-visible { outline: 3px solid var(--color-teal, #087c75); outline-offset: 4px; }\n@media (prefers-reduced-motion: reduce) { .ds-button-danger { transition: none !important; animation: none !important; } }"
+    },
+    {
+      "name": "文字欄位",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "帳戶基本資料的姓名欄位；可見標示與原生輸入沿用共用 CSS。",
+      "html": "<label class=\"ds-field\">姓名<input class=\"ds-input\" autocomplete=\"name\" minlength=\"1\" maxlength=\"80\" required /></label>",
+      "css": ".ds-field { display: grid; gap: 6px; font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang TC', system-ui, sans-serif; color: var(--color-ink, #183640); font-size: .82rem; font-weight: 550; line-height: 1.65; } .ds-input { width: 100%; min-width: 0; min-height: 44px; padding: 9px 11px; border: 1px solid #cbd8d3; border-radius: var(--radius-control, 7px); color: var(--color-ink, #183640); background: var(--color-paper, #ffffff); font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang TC', system-ui, sans-serif; font-size: .85rem; font-weight: 400; line-height: 1.65; caret-color: var(--color-teal, #087c75); } .ds-input::placeholder { color: var(--color-muted, #5c6f76); opacity: 1; } .ds-input:hover { border-color: #88a89e; } .ds-input:focus-visible { outline: 3px solid var(--color-teal, #087c75); outline-offset: 4px; }"
+    },
+    {
+      "name": "主要導覽",
+      "kind": "nav",
+      "refersTo": "navigation-item",
+      "description": "深海藍導覽與淡底 active；手機沿用來源的頂部排列。",
+      "html": "<nav class=\"ds-nav\" aria-label=\"主要導覽\"><a class=\"ds-nav-item ds-nav-active\" aria-current=\"page\" href=\"#rooms\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 21l-5-5M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0\" /></svg>查詢教室</a><a class=\"ds-nav-item\" href=\"#reservations\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2\" /></svg>我的借用</a><a class=\"ds-nav-item\" href=\"#notifications\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4\" /></svg>通知中心</a></nav>",
+      "css": ".ds-nav { display: grid; gap: 8px; padding: 35px 20px 22px; background: var(--color-navy, #123a4d); color: #e4eeef; font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang TC', system-ui, sans-serif; line-height: 1.65; } .ds-nav-item { display: flex; gap: 12px; align-items: center; min-height: 48px; border-radius: 8px; padding: 11px 14px; font-size: .91rem; text-decoration: none; color: inherit; transition: background 160ms ease-out; } .ds-nav-item:hover { background: var(--color-navy-soft, #204d60); } .ds-nav-item.ds-nav-active { background: #e8f2ef; color: var(--color-navy, #123a4d); font-weight: 650; } .ds-nav-item svg { flex-shrink: 0; } .ds-nav-item:focus-visible { outline: 3px solid var(--color-teal, #087c75); outline-offset: 4px; } @media (max-width: 900px) { .ds-nav { display: flex; gap: 7px; flex-wrap: wrap; padding: 18px 24px 0; } .ds-nav-item { border-radius: 6px 6px 0 0; padding: 10px 14px; min-height: 44px; font-size: .85rem; } } @media (max-width: 600px) { .ds-nav { gap: 1px; justify-content: space-between; padding: 18px 16px 0; } .ds-nav-item { gap: 5px; padding: 10px 7px; font-size: .77rem; } .ds-nav-item svg { width: 17px; } } @media (prefers-reduced-motion: reduce) { .ds-nav-item { transition: none !important; animation: none !important; } }"
+    },
+    {
+      "name": "借用狀態",
+      "kind": "chip",
+      "refersTo": "status",
+      "description": "文字與色點共同表達狀態；被動資訊，不增加互動樣式。",
+      "html": "<div class=\"ds-status-samples\"><span class=\"ds-status ds-status-pending\"><span class=\"ds-status-dot\"></span>申請中</span><span class=\"ds-status ds-status-approved\"><span class=\"ds-status-dot\"></span>已核准</span><span class=\"ds-status ds-status-checked-out\"><span class=\"ds-status-dot\"></span>已交付鑰匙</span><span class=\"ds-status ds-status-rejected\"><span class=\"ds-status-dot\"></span>已拒絕</span></div>",
+      "css": ".ds-status-samples { display: flex; flex-wrap: wrap; gap: 8px; } .ds-status { display: inline-flex; gap: 7px; align-items: center; white-space: nowrap; font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang TC', system-ui, sans-serif; font-size: .75rem; font-weight: 400; line-height: 1.65; padding: 4px 8px; border-radius: 4px; background: #eef2f0; color: var(--color-muted, #5c6f76); } .ds-status-dot { height: 6px; width: 6px; border-radius: 50%; background: currentColor; display: inline-block; flex-shrink: 0; } .ds-status-pending { background: var(--color-amber-pale, #fbf2de); color: var(--color-amber, #79571b); } .ds-status-approved { background: var(--color-teal-pale, #e6f3ef); color: var(--color-teal-dark, #08635e); } .ds-status-checked-out { background: #e8eef8; color: var(--color-navy, #123a4d); } .ds-status-rejected { background: var(--color-danger-pale, #fff0ee); color: var(--color-danger, #a73333); }"
+    },
+    {
+      "name": "設備標籤",
+      "kind": "chip",
+      "refersTo": "equipment-chip",
+      "description": "輕量細邊框設備資訊，沿用列表與詳情樣式。",
+      "html": "<div class=\"ds-equipment\"><span>投影機</span><span>白板</span><span>冷氣</span></div>",
+      "css": ".ds-equipment { display: flex; flex-wrap: wrap; gap: 5px; font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang TC', system-ui, sans-serif; line-height: 1.65; } .ds-equipment span { border: 1px solid var(--color-border, #dce5e2); color: var(--color-muted, #5c6f76); border-radius: 4px; font-size: .7rem; padding: 2px 7px; white-space: nowrap; }"
+    },
+    {
+      "name": "工作面容器",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "共用白色容器、細邊線與詳情內距；不加入來源沒有的陰影。",
+      "html": "<section class=\"ds-panel\"><h2>借用提醒</h2><p>借用前請向管理員領取鑰匙；使用結束後，請恢復教室並完成歸還。</p></section>",
+      "css": ".ds-panel { border: 1px solid var(--color-border, #dce5e2); background: var(--color-paper, #ffffff); border-radius: var(--radius-panel, 14px); padding: 25px 28px; color: var(--color-ink, #183640); font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang TC', system-ui, sans-serif; line-height: 1.65; } .ds-panel h2 { margin: 0; font-size: 1.2rem; line-height: 1.5; font-weight: 700; } .ds-panel p { font-size: .79rem; color: var(--color-muted, #5c6f76); margin: 8px 0 0; } @media (max-width: 1250px) { .ds-panel { padding: 23px; } } @media (max-width: 600px) { .ds-panel { padding: 21px; } }"
+    },
+    {
+      "name": "分段切換",
+      "kind": "custom",
+      "refersTo": "segmented",
+      "description": "列表／週課表與借用模式的既有選取語彙。",
+      "html": "<div class=\"ds-segmented\" aria-label=\"結果顯示方式\"><button class=\"ds-segment ds-segment-active\" type=\"button\" aria-pressed=\"true\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01\" /></svg>教室列表</button><button class=\"ds-segment\" type=\"button\" aria-pressed=\"false\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2\" /></svg>週課表</button></div>",
+      "css": ".ds-segmented { display: inline-flex; gap: 3px; padding: 3px; background: #e9efec; border-radius: 8px; font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang TC', system-ui, sans-serif; line-height: 1.65; } .ds-segment { display: flex; gap: 6px; align-items: center; border: 0; background: none; border-radius: 5px; min-height: 36px; padding: 6px 12px; font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang TC', system-ui, sans-serif; font-size: .8rem; line-height: 1.65; color: var(--color-muted, #5c6f76); cursor: pointer; } .ds-segment.ds-segment-active { background: var(--color-paper, #ffffff); color: var(--color-ink, #183640); font-weight: 600; } .ds-segment:focus-visible { outline: 3px solid var(--color-teal, #087c75); outline-offset: 4px; }"
+    },
+    {
+      "name": "教室位置導引",
+      "kind": "custom",
+      "refersTo": "panel",
+      "description": "本地 SVG、單一位置點與常駐文字；ENG-201 的預覽座標取自示範 seed。",
+      "html": "<div class=\"ds-room-map\"><div class=\"ds-map-frame\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"700\" height=\"440\" viewBox=\"0 0 700 440\" role=\"img\" aria-label=\"校園幾何位置示意圖，教室位置詳見下方文字\"><rect width=\"700\" height=\"440\" fill=\"#eef3ee\"/><path d=\"M0 0h700v93c-120 10-151-31-242-5S222 51 0 110Z\" fill=\"#d6eae9\"/><path d=\"M0 128c124-16 216-4 304 21s269 22 396-16\" fill=\"none\" stroke=\"#fff\" stroke-width=\"30\"/><path d=\"M106 440V225q0-66 69-66h399\" fill=\"none\" stroke=\"#fff\" stroke-width=\"20\"/><path d=\"M327 163v277M580 151v289\" stroke=\"#fff\" stroke-width=\"16\"/><g fill=\"#c1d5d1\" stroke=\"#8eaaa3\" stroke-width=\"2\"><rect x=\"145\" y=\"200\" width=\"125\" height=\"72\" rx=\"3\"/><rect x=\"366\" y=\"197\" width=\"160\" height=\"72\" rx=\"3\"/><rect x=\"145\" y=\"315\" width=\"125\" height=\"78\" rx=\"3\"/><rect x=\"375\" y=\"316\" width=\"112\" height=\"68\" rx=\"3\"/><rect x=\"603\" y=\"219\" width=\"67\" height=\"106\" rx=\"3\"/></g><g fill=\"#39665d\" font-family=\"sans-serif\" font-size=\"17\" text-anchor=\"middle\"><text x=\"207\" y=\"243\">教學區 A</text><text x=\"446\" y=\"240\">教學區 B</text><text x=\"207\" y=\"360\">教學區 C</text><text x=\"431\" y=\"355\">公共空間</text></g><text x=\"41\" y=\"49\" fill=\"#36696e\" font-family=\"sans-serif\" font-size=\"18\">海岸側</text><path d=\"M649 54v-27m-6 8 6-8 6 8\" stroke=\"#39665d\" fill=\"none\" stroke-width=\"2\"/><text x=\"649\" y=\"75\" text-anchor=\"middle\" fill=\"#39665d\" font-family=\"sans-serif\" font-size=\"15\">N</text><text x=\"21\" y=\"416\" fill=\"#52716b\" font-family=\"sans-serif\" font-size=\"13\">校園示意圖・非官方圖資</text></svg><div class=\"ds-map-pin\" style=\"left:35%;top:45%\"><svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0M15 10a3 3 0 1 1-6 0 3 3 0 0 1 6 0\" /></svg><span>ENG-201</span></div></div><div class=\"ds-map-caption\"><strong>工學院・2 樓</strong><p>工學院二樓，主樓梯右側走廊第一間。示範位置，請洽系辦確認。</p><small>示範位置，尚未經校方確認。請向系所確認實際位置。</small></div></div>",
+      "css": ".ds-room-map { font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang TC', system-ui, sans-serif; color: var(--color-ink, #183640); line-height: 1.65; } .ds-map-frame { position: relative; overflow: hidden; border-radius: 9px; width: 100%; background: #eef3ee; aspect-ratio: 700 / 440; } .ds-map-frame > svg { width: 100%; height: 100%; display: block; } .ds-map-pin { position: absolute; display: flex; align-items: center; color: var(--color-danger, #a73333); transform: translate(-50%, -70%); } .ds-map-pin svg { flex-shrink: 0; } .ds-map-pin span { background: var(--color-paper, #ffffff); padding: 3px 7px; border-radius: 4px; font-size: .73rem; font-weight: 700; color: var(--color-ink, #183640); } .ds-map-caption { font-size: .83rem; margin-top: 16px; } .ds-map-caption p { margin: 6px 0 0; color: var(--color-muted, #5c6f76); } .ds-map-caption small { display: block; margin-top: 7px; color: var(--color-muted, #5c6f76); font-size: .78rem; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "校園導引標誌",
+    "overview": "以校園導引標誌為視覺中心：深海藍承載導覽，白色工作面承載查詢、表單和紀錄，青綠指出可操作與已選取的項目。介面以繁體中文、原生日期與時間欄位、可比較資訊和細線圖示維持簡潔專業的校園服務感。\n\n資訊密度偏向日常作業工具。主要內容先呈現任務與條件，再呈現結果；文字、數字、設備和狀態皆有固定層級。留白用來分隔資訊群，邊線用來維持列與欄的關係，位置示意圖則提供具體的方向感。",
+    "keyCharacteristics": [
+      "深海藍導覽、白色工作面與青綠操作色。",
+      "單一在地中文字體堆疊，緊湊的標題與分層資訊。",
+      "平面邊線與淡色區塊建立層次。",
+      "位置點、教室代碼與常駐位置文字共同提供導引。",
+      "桌機比較欄位，手機依閱讀優先順序重排。"
+    ],
+    "rules": [
+      {
+        "name": "State Has Words",
+        "body": "每個借用狀態都保留文字。色點、淡底與顏色提供第二層提示，不能單獨承擔狀態意義。",
+        "section": "colors"
+      },
+      {
+        "name": "One Reading Voice",
+        "body": "延伸介面沿用同一中文字體堆疊；用尺寸、字重和數字對齊區分層級。",
+        "section": "typography"
+      },
+      {
+        "name": "Flat Work Surface",
+        "body": "工作面以背景、邊線與留白分層；沿用目前無陰影的容器與控制項。",
+        "section": "elevation"
+      },
+      {
+        "name": "Motion Keeps the Task Visible",
+        "body": "起始內容保持可見且可操作；動態只提示閱讀位置或資料變化，不延遲下一個操作。",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do 沿用 frontmatter 的色彩與圓角；元件狀態以來源 CSS 為準。",
+      "Do 保留可見的青綠鍵盤焦點、文字狀態和原生表單語意。",
+      "Do 在一般操作使用既有觸控尺寸；列表內緊湊操作沿用已實作的 compact 變體。",
+      "Do 在手機重排資訊與表單，並讓課表按日切換。",
+      "Do 動態保留內容可見與操作可用，尊重減少動態偏好，並在更新或卸載時清理樣式。",
+      "Do 讓位置文字常駐；地圖失敗時保留可辨識的文字備案與示範資料註記。"
+    ],
+    "donts": [
+      "Don't 只靠色彩區分可借用、已占用、待審或拒絕。",
+      "Don't 把設備標籤或狀態標籤畫成主要操作按鈕。",
+      "Don't 為一般工作面加入目前系統沒有的陰影、漸層或玻璃材質。",
+      "Don't 以裝飾性大標、無資訊統計或外部字體取代既有任務層級。",
+      "Don't 把未經校方確認的位置示意當成官方圖資。"
+    ]
+  }
+}

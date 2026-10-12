@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-10-12T02:31:05.876Z",
+  "browser": {},
+  "checks": [
+    {
+      "name": "Google callback cancel is safe and clears credentials and URL",
+      "passed": true
+    },
+    {
+      "name": "Google callback invalid-code is safe and clears credentials and URL",
+      "passed": true
+    },
+    {
+      "name": "Google callback missing-verifier is safe and clears credentials and URL",
+      "passed": true
+    },
+    {
+      "name": "Callback without a code does not attempt a token exchange",
+      "passed": true
+    },
+    {
+      "name": "Normal Google PKCE reaches account once and clears URL",
+      "passed": true
+    }
+  ],
+  "screenshots": [],
+  "passed": true,
+  "scope": "Real Chrome and actual Supabase browser SDK PKCE; upstream Auth and business APIs are HTTP fixtures. Existing real FastAPI fixture server was unavailable."
+}
