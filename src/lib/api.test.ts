@@ -177,6 +177,58 @@ describe("logout clears private state and credentials independently of remote cl
 });
 
 describe("school Google PKCE and onboarding", () => {
+  it("uses refreshed tokens and rechecks identity without clearing same-user notifications", async () => {
+    const refreshed = {
+      ...signedIn,
+      access_token: "refreshed-access",
+      refresh_token: "refreshed-refresh",
+    };
+    const updatedProfile = { ...borrower, name: "更新後的借用人" };
+    const existingNotices = get(platform.notices);
+    const noticeChanges = vi.fn();
+    const stopObserving = platform.notices.subscribe(noticeChanges);
+    const callback = auth.onAuthStateChange.mock.calls[0][0];
+    fetchMock.mockClear();
+
+    expect(callback("TOKEN_REFRESHED", refreshed)).toBeUndefined();
+    expect(get(platform.session)).toEqual(refreshed);
+    expect(fetchMock).not.toHaveBeenCalled();
+    await platform.api("/rooms");
+    const roomRequest = fetchMock.mock.calls.at(-1) as unknown as [
+      string,
+      RequestInit,
+    ];
+    expect(new Headers(roomRequest[1].headers).get("Authorization")).toBe(
+      "Bearer refreshed-access",
+    );
+
+    fetchMock.mockImplementationOnce(async () =>
+      Response.json({
+        email: "borrower@email.ntou.edu.tw",
+        onboarding_required: false,
+        profile: updatedProfile,
+      }),
+    );
+    await vi.advanceTimersByTimeAsync(0);
+    const identityRequest = fetchMock.mock.calls.at(-1) as unknown as [
+      string,
+      RequestInit,
+    ];
+    expect(identityRequest[0]).toBe("/api/auth/identity");
+    expect(new Headers(identityRequest[1].headers).get("Authorization")).toBe(
+      "Bearer refreshed-access",
+    );
+    expect(get(platform.profile)).toEqual(updatedProfile);
+    expect(get(platform.identity)?.profile).toEqual(updatedProfile);
+    expect(get(platform.notices)).toBe(existingNotices);
+    expect(noticeChanges).toHaveBeenCalledExactlyOnceWith(existingNotices);
+    expect(realtime.channel).toHaveBeenCalledOnce();
+    expect(realtime.removeChannel).not.toHaveBeenCalled();
+    expect(vi.getTimerCount()).toBe(1);
+    expect(auth.getSession).toHaveBeenCalledOnce();
+    stopObserving();
+  });
+
   it("uses manual PKCE exchange and the school domain only as a Google picker hint", async () => {
     const { createClient } = await import("@supabase/supabase-js");
     expect(createClient).toHaveBeenCalledWith(
